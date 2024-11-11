@@ -1,4 +1,5 @@
 def add_to_list(numbers):
+  
     """
     Task:
     - Add the number 6 to the given list `numbers`.
@@ -6,10 +7,19 @@ def add_to_list(numbers):
     Return:
     - The modified list.
     """
-    pass
+    numbers = [1, 2, 3, ]
+    add_to_list = numbers.add()
+    
+    return (numbers.add[6])
+    
 
 
 def remove_from_list(numbers):
+    numbers = [1 ,3 ,4, 8 ,9, 2]
+    remove_from_list = numbers.remove[3]
+    
+    print(remove_from_list)
+    
     """
     Task:
     - Remove the number 3 from the given list `numbers`.
@@ -21,6 +31,9 @@ def remove_from_list(numbers):
 
 
 def insert_at_beginning(numbers):
+    numbers = [1 ,3 ,4, 8 ,9, 2]
+    insert_at_beginning = numbers.__add__(0) 
+    
     """
     Task:
     - Insert the number 0 at the beginning of the given list `numbers`.

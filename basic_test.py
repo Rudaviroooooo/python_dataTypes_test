@@ -1,4 +1,7 @@
 def int_division():
+    
+    int_division = 7//2
+         
     """
     Task:
     - Perform integer division of 7 by 2.
@@ -6,10 +9,16 @@ def int_division():
     Return:
     - The result of the division (integer).
     """
-    pass
+    
+    return (int_division) 
+    
 
 
 def float_multiplication():
+    float_multiplication = 3.0 * 2
+    
+    return float_multiplication
+        
     """
     Task:
     - Multiply 3.0 by 2.
@@ -17,10 +26,11 @@ def float_multiplication():
     Return:
     - The result of the multiplication (float).
     """
-    pass
+
 
 
 def combine_operations():
+   
     """
     Task:
     - Add the result of integer division and multiplication.
@@ -28,10 +38,18 @@ def combine_operations():
     Return:
     - The combined result (float).
     """
-    pass
+    combine_operations = 3 + 3.0
+    return (combine_operations)
+  
 
 
 def extract_word():
+   
+    sentence = 'Python is awesome'
+    word = sentence.split()
+    
+    return (sentence.split[2])
+    
     """
     Task:
     - Extract the word 'awesome' from the string 'Python is awesome!'.
@@ -39,10 +57,11 @@ def extract_word():
     Return:
     - The extracted word ('awesome').
     """
-    pass
+    
 
 
 def to_lowercase():
+  
     """
     Task:
     - Convert the string 'Python is awesome!' to lowercase.
@@ -50,10 +69,19 @@ def to_lowercase():
     Return:
     - The lowercase version of the string.
     """
-    pass
+    
+    string = 'Python is awesome!'
+    string.lower()
+    return(string.lower())
+    
 
 
 def count_o():
+    phrase ='Python is awesome'
+    phrase.count('o')
+    
+    return(phrase.count('o'))
+    
     """
     Task:
     - Count how many times the letter 'o' appears in the string 'Python is awesome!'.
@@ -65,6 +93,9 @@ def count_o():
 
 
 def evaluate_boolean():
+    eval = not (5 > 3) and (10 == 5 * 2)
+    print (eval)
+    
     """
     Task:
     - Evaluate the expression 'not (5 > 3) and (10 == 5 * 2)'.
